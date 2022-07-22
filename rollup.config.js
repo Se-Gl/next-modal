@@ -28,8 +28,8 @@ export default [
         presets: ['@babel/preset-react']
       }),
       external(),
-      resolve()
-      //   terser()
+      resolve(),
+      terser()
     ]
   }
 ]
