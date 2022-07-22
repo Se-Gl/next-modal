@@ -45,7 +45,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = "@media(prefers-reduced-motion:reduce){*,:after,:before{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}*,:after,:before{box-sizing:border-box}*{margin:0}::-moz-focus-inner{border:0}.fade-in{-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-backface-visibility:hidden;backface-visibility:hidden}@keyframes fadeIn{0%{opacity:0}45%{opacity:.33}to{opacity:1}}.font-bold{font-weight:700}.text-20px{font-size:20px}.text-black{color:#101010}.bg-white{background-color:#fdfdfd}.overflow-x-hidden{overflow-x:hidden}.absolute{position:absolute}.fixed{position:fixed}.top-0per{top:0}.top-50per{top:50%}.right-0per{right:0}.bottom-0per{bottom:0}.left-0per{left:0}.left-50per{left:50%}.z-1{z-index:1}.max-w-90per{max-width:90%}.max-w-50vw{max-width:50vw}.min-w-50rem{min-width:50rem}.max-h-75vh{max-height:75vh}.p-20px{padding:20px}.mt-20px{margin-top:20px}.mb-20px{margin-bottom:20px}.animation-forwards{animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;-moz-animation-fill-mode:forwards}.animation-duration-500ms{animation-duration:.5s;-webkit-animation-duration:.5s}.shadow-small-black-5{box-shadow:5px 5px 10px -1px #4d4d4d;-webkit-box-shadow:5px 5px 10px -1px #4d4d4d;-moz-box-shadow:5px 5px 10px -1px #4d4d4d;-ms-box-shadow:5px 5px 10px -1px #4d4d4d}.backdrop-blur-30px{backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px)}.rounded-20px{border-radius:20px}.cursor-pointer{cursor:pointer}.fill-gray{fill:#7d7d7d}@media(max-width:480px){.sm\\:min-w-90vw{min-width:90vw}}@media(min-width:481px)and (max-width:768px){.md\\:min-w-90vw{min-width:90vw}}";
+var css_248z = "@media(prefers-reduced-motion:reduce){*,:after,:before{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}*,:after,:before{box-sizing:border-box}*{margin:0}::-moz-focus-inner{border:0}.fade-in{-webkit-animation-name:fadeIn;animation-name:fadeIn;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-backface-visibility:hidden;backface-visibility:hidden}@keyframes fadeIn{0%{opacity:0}45%{opacity:.33}to{opacity:1}}.font-bold{font-weight:700}.text-20px{font-size:20px}.text-black{color:#101010}.bg-white{background-color:#fdfdfd}.overflow-x-hidden{overflow-x:hidden}.absolute{position:absolute}.fixed{position:fixed}.top-0per{top:0}.top-50per{top:50%}.right-0per{right:0}.bottom-0per{bottom:0}.left-0per{left:0}.left-50per{left:50%}.z-1{z-index:1}.max-w-90per{max-width:90%}.max-w-50vw{max-width:50vw}.min-w-50rem{min-width:50rem}.max-h-75vh{max-height:75vh}.p-20px{padding:20px}.mt-20px{margin-top:20px}.mb-20px{margin-bottom:20px}.animation-forwards{animation-fill-mode:forwards;-webkit-animation-fill-mode:forwards;-moz-animation-fill-mode:forwards}.animation-duration-500ms{animation-duration:.5s;-webkit-animation-duration:.5s}.shadow-small-black-5{box-shadow:5px 5px 10px -1px #4d4d4d;-webkit-box-shadow:5px 5px 10px -1px #4d4d4d;-moz-box-shadow:5px 5px 10px -1px #4d4d4d;-ms-box-shadow:5px 5px 10px -1px #4d4d4d}.backdrop-blur-30px{backdrop-filter:blur(30px);-webkit-backdrop-filter:blur(30px)}.focus\\:outline-solid:focus{outline-style:solid}.rounded-20px{border-radius:20px}.focus\\:outline-1px:focus{outline-width:1px}.cursor-pointer{cursor:pointer}.fill-gray{fill:#7d7d7d}@media(max-width:480px){.sm\\:min-w-90vw{min-width:90vw}}@media(min-width:481px)and (max-width:768px){.md\\:min-w-90vw{min-width:90vw}}";
 styleInject(css_248z);
 
 function CloseIcon({
@@ -128,9 +128,12 @@ const ModalContent = ({
     style: {
       transform: 'translate(-50%, -50%)'
     }
-  }), /*#__PURE__*/React.createElement("button", {
+  }), /*#__PURE__*/React.createElement("div", {
+    role: "button",
+    tabIndex: 0,
+    onKeyPress: setToggle.bind(undefined, false),
     onClick: setToggle.bind(undefined, false),
-    className: "absolute z-1",
+    className: "absolute z-1 focus:outline-1px focus:outline-solid focus:outline-gray",
     style: {
       top: '20px',
       right: '20px'

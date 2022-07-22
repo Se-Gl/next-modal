@@ -74,9 +74,15 @@ const ModalContent = ({ children, className, modalContentAnimation, closeIcon, s
       className={`text-black overflow-x-hidden fixed left-50per top-50per rounded-20px bg-white min-w-50rem max-w-50vw sm:min-w-90vw md:min-w-90vw max-h-75vh shadow-small-black-5 ${className} ${modalContentAnimation}`}
       style={{ transform: 'translate(-50%, -50%)' }}>
       {/* Close button */}
-      <button onClick={setToggle.bind(this, false)} className='absolute z-1' style={{ top: '20px', right: '20px' }}>
+      <div
+        role='button'
+        tabIndex={0}
+        onKeyPress={setToggle.bind(this, false)}
+        onClick={setToggle.bind(this, false)}
+        className='absolute z-1 focus:outline-1px focus:outline-solid focus:outline-gray'
+        style={{ top: '20px', right: '20px' }}>
         {closeIcon}
-      </button>
+      </div>
       <div className='p-20px'>{children}</div>
     </div>
   )
