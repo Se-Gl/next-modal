@@ -4,6 +4,7 @@ build
 coverage
 .next
 .vscode
+src/components/green.css
 
 # Ignore all HTML files:
 *.html
