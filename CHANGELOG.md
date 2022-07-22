@@ -1,10 +1,9 @@
 ## [1.2.1](https://github.com/Se-Gl/next-modal/compare/v1.2.0...v1.2.1) (2022-07-22)
 
-
 ### Bug Fixes
 
-* **rollup:** added terser to rollup ([83a683a](https://github.com/Se-Gl/next-modal/commit/83a683a2a5006647b104b7d50c5a94fcc8c5316e))
-* **shadow:** adjusted modal shadow color ([0da868a](https://github.com/Se-Gl/next-modal/commit/0da868a4b591774136a573436d073716d65de175))
+- **rollup:** added terser to rollup ([83a683a](https://github.com/Se-Gl/next-modal/commit/83a683a2a5006647b104b7d50c5a94fcc8c5316e))
+- **shadow:** adjusted modal shadow color ([0da868a](https://github.com/Se-Gl/next-modal/commit/0da868a4b591774136a573436d073716d65de175))
 
 # [1.2.0](https://github.com/Se-Gl/next-modal/compare/v1.1.0...v1.2.0) (2022-07-22)
 
