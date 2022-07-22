@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/Se-Gl/next-modal/compare/v1.2.1...v1.2.2) (2022-07-22)
+
+
+### Bug Fixes
+
+* **readme:** updated hero gif ([bc1e34b](https://github.com/Se-Gl/next-modal/commit/bc1e34b593bda2c4979dacb758a307e7308ce1f4))
+
 ## [1.2.1](https://github.com/Se-Gl/next-modal/compare/v1.2.0...v1.2.1) (2022-07-22)
 
 ### Bug Fixes
