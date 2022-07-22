@@ -101,6 +101,35 @@ export default function Home() {
 }
 ```
 
+Do you want to use your style within the modal? No problem - you can add any JSX inside.
+
+```js
+import React, { useState } from 'react'
+import { Modal } from 'next-modal'
+
+export default function Home() {
+  const [toggleModal, setToggleModal] = useState(false)
+  return (
+    <div className='min-h-100vh bg-gray-9'>
+      {/* Modal Toggle Button */}
+      <button onClick={() => setToggleModal((prev) => !prev)} className='bg-red-9 px-20px py-10px rounded-10px hover:bg-red-7'>
+        Toggle Modal
+      </button>
+
+      {/* Modal */}
+      <Modal toggle={toggleModal} setToggle={setToggleModal}>
+        <h3>👋 Hi, I'm your independent modal</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Quis vel eros donec ac. Mauris pellentesque
+          pulvinar pellentesque habitant morbi tristique senectus.
+        </p>
+      </Modal>
+    </div>
+  )
+}
+```
+
 ### Summary
 
 1. Import the modal.
@@ -128,3 +157,15 @@ export default function Home() {
 | `<Modal.Header>`      | `<Modal.Header>{children}</Modal.Header>`             | Add a header text                                                                                                       |
 | `<Modal.Body>`        | `<Modal.Body>{children}</Modal.Body>`                 | Add body elements                                                                                                       |
 | `<Modal.Footer>`      | `<Modal.Footer>{children}</Modal.Footer>`             | Add footer elements                                                                                                     |
+
+## Contribute: We Use [Semantic Release](https://github.com/semantic-release/semantic-release)
+
+We use semantic versioning for commit messages.
+
+For commit messages, use semantig writing:
+
+| Commit                                             |      Usage       | Version |
+| -------------------------------------------------- | :--------------: | ------- |
+| fix(your-change): a small change, maybe just a fix |   Fix Release    | v.0.0.1 |
+| feat(your-change): a new feature, a medium change  | Feature Release  | v.0.1.0 |
+| perf(your-change): a breaking change or hotfix     | Breaking Release | v.1.0.0 |

@@ -1,9 +1,8 @@
 ## [1.0.2](https://github.com/Se-Gl/next-modal/compare/v1.0.1...v1.0.2) (2022-07-22)
 
-
 ### Bug Fixes
 
-* **prettier:** disregard to style css file ([86c8f35](https://github.com/Se-Gl/next-modal/commit/86c8f3536e26158375c70cab54869e75b5599478))
+- **prettier:** disregard to style css file ([86c8f35](https://github.com/Se-Gl/next-modal/commit/86c8f3536e26158375c70cab54869e75b5599478))
 
 ## [1.0.1](https://github.com/Se-Gl/next-modal/compare/v1.0.0...v1.0.1) (2022-07-22)
 
