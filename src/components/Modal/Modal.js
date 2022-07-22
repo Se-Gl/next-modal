@@ -71,7 +71,7 @@ const ModalContent = ({ children, className, modalContentAnimation, closeIcon, s
       ref={modalRef}
       tabIndex={0}
       {...restProps}
-      className={`text-black overflow-x-hidden fixed left-50per top-50per rounded-20px bg-white min-w-50rem max-w-50vw sm:min-w-90vw md:min-w-90vw max-h-75vh shadow-small-black-5 ${className} ${modalContentAnimation}`}
+      className={`text-black overflow-x-hidden fixed left-50per top-50per rounded-20px bg-white min-w-50rem max-w-50vw sm:min-w-90vw md:min-w-90vw max-h-75vh shadow-small-gray ${className} ${modalContentAnimation}`}
       style={{ transform: 'translate(-50%, -50%)' }}>
       {/* Close button */}
       <div
