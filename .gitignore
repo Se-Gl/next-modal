@@ -31,5 +31,4 @@ yarn-error.log*
 # random
 .vercel
 .next
-.github
-.husky
+

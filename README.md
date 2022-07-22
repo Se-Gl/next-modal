@@ -1,10 +1,10 @@
 # SSR Modal Component
 
-[![Prettier](https://github.com/Se-Gl/modal-react/actions/workflows/prettier.yml/badge.svg)](https://github.com/Se-Gl/modal-react/actions/workflows/prettier.yml)
-[![Downloads p/week](https://badgen.net/npm/dw/modal-react)](https://badgen.net/npm/dw/modal-react)
-[![NPM version](https://badgen.net/npm/v/modal-react)](https://badgen.net/npm/v/modal-react)
-[![minified + gzip](https://badgen.net/bundlephobia/minzip/modal-react)](https://badgen.net/bundlephobia/minzip/modal-react)
-[![License](https://badgen.net/npm/license/modal-react)](https://badgen.net/npm/license/modal-react)
+[![Prettier](https://github.com/Se-Gl/next-modal/actions/workflows/prettier.yml/badge.svg)](https://github.com/Se-Gl/next-modal/actions/workflows/prettier.yml)
+[![Downloads p/week](https://badgen.net/npm/dw/next-modal)](https://badgen.net/npm/dw/next-modal)
+[![NPM version](https://badgen.net/npm/v/next-modal)](https://badgen.net/npm/v/next-modal)
+[![minified + gzip](https://badgen.net/bundlephobia/minzip/next-modal)](https://badgen.net/bundlephobia/minzip/next-modal)
+[![License](https://badgen.net/npm/license/next-modal)](https://badgen.net/npm/license/next-modal)
 
 This is a sustainable React modal component project based on [greenCSS](https://github.com/Se-Gl/greenCSS), which also works SSR with Next.js. greenCSS is an animated, responsive, lightweight and sustainable CSS library. It is recommended that you also use greenCSS in your project. If you don't want to, just style your modal with your own classes.
 
@@ -25,7 +25,7 @@ This is a sustainable React modal component project based on [greenCSS](https://
 First, install the Modal dependency:
 
 ```bash
-npm i modal-react
+npm i next-modal
 ```
 
 ### Next.js
@@ -64,7 +64,7 @@ The following jsx file is based on greenCSS. If you don't want to use it, you ca
 
 ```js
 import React, { useState } from 'react'
-import { Modal } from 'modal-react'
+import { Modal } from 'next-modal'
 
 export default function Home() {
   const [toggleModal, setToggleModal] = useState(false)
