@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Se-Gl/next-modal/compare/v1.2.3...v1.3.0) (2022-07-23)
+
+
+### Features
+
+* **rollup:** excluded unnecessary folders for production ([55866fa](https://github.com/Se-Gl/next-modal/commit/55866fa129def92983774337da762f662c367e91))
+
 ## [1.2.3](https://github.com/Se-Gl/next-modal/compare/v1.2.2...v1.2.3) (2022-07-23)
 
 ### Bug Fixes
