@@ -6,6 +6,15 @@ coverage
 .vscode
 src/components/green.css
 src
-/src
-/img
 img
+.husky
+.github
+
+# files
+.prettierignore
+.prettierrc.json
+CHANGELOG.md
+commitlint.config.js
+purgecss.config.js
+release.config.js
+rollup.config.js
