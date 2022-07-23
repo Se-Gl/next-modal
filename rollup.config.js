@@ -24,7 +24,7 @@ export default [
         minimize: true
       }),
       babel({
-        exclude: 'node_modules/**',
+        exclude: ['node_modules/**', 'img/**', '.husky/**', '.github/**'],
         presets: ['@babel/preset-react']
       }),
       external(),
