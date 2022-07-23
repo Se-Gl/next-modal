@@ -1,0 +1,11 @@
+# Ignore artifacts:
+node_modules
+build
+coverage
+.next
+.vscode
+src/components/green.css
+src
+/src
+/img
+img
