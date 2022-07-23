@@ -1,3 +1,11 @@
+## [1.3.2](https://github.com/Se-Gl/next-modal/compare/v1.3.1...v1.3.2) (2022-07-23)
+
+
+### Bug Fixes
+
+* **npmignore:** updated npmignore file ([f84d11f](https://github.com/Se-Gl/next-modal/commit/f84d11f92cd3bfa9f970997b442a90ba46174768))
+* **npmignore:** updated npmignore file ([e6143d3](https://github.com/Se-Gl/next-modal/commit/e6143d3a8b0e00dae69fdf398dbc5880bfdd4621))
+
 ## [1.3.1](https://github.com/Se-Gl/next-modal/compare/v1.3.0...v1.3.1) (2022-07-23)
 
 ### Bug Fixes
